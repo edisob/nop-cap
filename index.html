@@ -11,7 +11,6 @@
       height: 100%;
       overflow: hidden;
     }
-
     /* Pantalla inicial */
     #splash-screen {
       display: flex;
@@ -25,14 +24,12 @@
       font-size: 2em;
       text-align: center;
     }
-
     /* Pantalla de video */
     #video-screen {
       display: none;
       width: 100%;
       height: 100%;
     }
-
     video {
       width: 100%;
       height: 100%;
@@ -45,21 +42,20 @@
   <div id="splash-screen">
     Bienvenido a la App de Agua 🌊
   </div>
-
   <!-- Pantalla de Video -->
   <div id="video-screen">
     <video autoplay controls>
-      <source src="tu-video.mp4" type="video/mp4">
+      <source src="https://rr1---sn-ab02a0nfpgxapox-bh26e.googlevideo.com/videoplayback?expire=1746424573&ei=nf4XaIPaNdCVvcAP1oza-QE&ip=122.37.246.2&id=o-AOWM-NaZfDjbEfyVFqloh_d65gFmDk2-qjch6cfBqe5U&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1746402973%2C&mh=EZ&mm=31%2C29&mn=sn-ab02a0nfpgxapox-bh26e%2Csn-ab02a0nfpgxapox-bh2zr&ms=au%2Crdu&mv=m&mvi=1&pl=25&rms=au%2Cau&initcwndbps=4226250&bui=AecWEAYLmaZb0Mftg7yDkSZO0hmsBtic2m_OprczcEFxvIv4UP7kcvZLxJHrC7k-eQSEHMuQ5bWSav3l&vprv=1&svpuc=1&mime=video%2Fmp4&ns=c5VS20xKXS-QuDyWtCYdbTwQ&rqh=1&cnr=14&ratebypass=yes&dur=1500.171&lmt=1697346235676834&mt=1746402542&fvip=4&lmw=1&c=TVHTML5&sefc=1&txp=5438434&n=KCscFtWoqVzLnA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=ACuhMU0wRAIgbddu78Lp8kMgMSYo74E44wCBGoK6S60iCLhHD8qxRTECIGro2Fd2GapB-NYmrPRNv3t03P4uX_pVaWxr1usISyAr&sig=AJfQdSswRQIhANoFgWvaL2A373JanpalkTRs0K6uV21XrUUL48kIpLIiAiAlETvpdJw3b_Vkqk84pIiTzaVKkIPeI2lRGuxkltP3bA%3D%3D&title=Nanatsu%20No%20Taizai%20Temporada%204%20Capitulo%202%20Espa%C3%B1ol%20Latino%20Completo%20HD" type="video/mp4">
       Tu navegador no soporta este video.
     </video>
   </div>
 
   <script>
-    // Función para cambiar de pantalla después de 3 segundos
+    // Cambiar de pantalla después de 3 segundos
     setTimeout(() => {
       document.getElementById('splash-screen').style.display = 'none';
       document.getElementById('video-screen').style.display = 'block';
-    }, 3000); // Cambia a 3000 ms (3 segundos)
+    }, 3000);
   </script>
 </body>
 </html>
